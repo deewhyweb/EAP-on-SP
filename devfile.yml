@@ -10,7 +10,7 @@ components:
     image:
       imageName: java-useless-image:latest
       dockerfile:
-        uri: ./Dockerfile
+        uri: src/main/docker/Dockerfile
         buildContext: .
         rootRequired: false
   - name: kubernetes-deploy
